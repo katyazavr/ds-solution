@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# CatBoost training artifacts (регенерируются при каждом запуске)
+notebooks/catboost_info/
+catboost_info/
+
+# IDE
+.vscode/
+
+# данные - тяжёлые/не часть решения, воспроизводятся через src/features.py
+data/*.csv
+data/*.csv.gz
+data/features_train.csv
+data/features_test.csv

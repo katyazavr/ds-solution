@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+lightgbm>=4.3
+catboost>=1.2
+optuna>=3.6
+scipy>=1.13
+nbformat>=5.10
+jupyter>=1.0
+shap>=0.45
+matplotlib>=3.8
